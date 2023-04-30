@@ -1,5 +1,3 @@
-package labs_examples.datatypes_operators.labs;
-
 /**
  * Data Types and Operators Exercise 2: Type conversion and casting
  *
@@ -24,6 +22,11 @@ public class Exercise_02 {
     public static void main(String[] args) {
 
         // write code here
-
+        int widening1 = 10;
+        double widening2 = (int) 10.24;
+        System.out.println(widening1);
+        double narrowing1 = 10.5;
+        int narrowing2 = (int) narrowing1;
+        System.out.println(narrowing2);
     }
 }
