@@ -1,12 +1,10 @@
-package labs_examples.datatypes_operators.labs;
-
 /**
  * Please demonstrate the use of all relational operators below. These include:
  *
  * less than, less than or equal to, greater than, greater than or equal to, and equal to
  *
  */
-class RelationalOperators {
+class Exercise_04 {
 
     public static void main(String[] args) {
 
@@ -18,7 +16,23 @@ class RelationalOperators {
         }
 
         // write your code below
+        if (b > a){
+            System.out.println("B is greater than A");
+        }
 
+        if (b >= a){
+            System.out.println("B is greater than A");
+        }
+
+        if (a == b){
+            System.out.println("A equals B");
+        } else {
+            System.out.println("A does not equal B");
+        }
+
+        if (a == 1){
+            System.out.println("A is equal to one");
+        }
     }
 
 }
