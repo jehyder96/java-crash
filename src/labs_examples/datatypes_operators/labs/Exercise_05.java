@@ -1,12 +1,10 @@
-package labs_examples.datatypes_operators.labs;
-
 /**
  * Please demonstrate the use of all logical operators below. These include:
  *
  * AND, short-circuit AND, OR, short-circuit OR, XOR, NOT
  *
  */
-class LogicalOperators {
+class Exercise_05 {
 
     public static void main(String[] args) {
 

@@ -1,5 +1,3 @@
-package labs_examples.datatypes_operators.labs;
-
 /**
  * Fundamentals Exercise 4: Volume and Surface Area
  *
@@ -13,6 +11,13 @@ public class Exercise_06 {
     public static void main(String[] args) {
 
         // write code here
+        double radius = 3.14;
+        int height = 5;
+        double pi = 3.14;
+
+        double volume = ((radius * radius) * height * pi);
+        System.out.println(volume);
+
 
     }
 }

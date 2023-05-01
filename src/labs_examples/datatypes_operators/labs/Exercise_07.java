@@ -1,5 +1,3 @@
-package labs_examples.datatypes_operators.labs;
-
 import java.util.Scanner;
 
 /**
@@ -24,6 +22,9 @@ public class Exercise_07 {
         int days = scanner.nextInt();
 
         // write completed code here
+        int secondsInDay = 60 * 60 * 24;
+        int secondsCalculator = days * secondsInDay;
+        System.out.println("There are " + secondsCalculator + " seconds in " + days + " days");
 
     }
 }
