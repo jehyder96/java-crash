@@ -1,5 +1,3 @@
-package labs_examples.conditions_loops.labs;
-
 /**
  * Conditions and Loops Exercise 4: Even numbers
  *
@@ -8,5 +6,11 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_04 {
-
-}
+    public static void main(String[] args) {
+        for (int i = 2; i <= 100; i = i + 2) {
+            System.out.println(i);
+          }
+          
+      }
+  
+  }
