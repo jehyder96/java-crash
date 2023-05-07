@@ -1,6 +1,4 @@
-package labs_examples.conditions_loops.labs;
-
-import java.util.Scanner;
+import java.util.Scanner; // 
 
 /**
  * Conditions and Loops Exercise 1: Even or Odd
@@ -24,6 +22,11 @@ public class Exercise_01 {
         int number = scanner.nextInt();
 
         // write completed code here
-
+        int evenOdd = number % 2;
+        if (evenOdd == 0) {
+            System.out.println("The number is even");
+        } else {
+            System.out.println("The number is odd");
+        }
     }
 }
