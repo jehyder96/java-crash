@@ -1,5 +1,3 @@
-package labs_examples.conditions_loops.labs;
-
 /**
  * Conditions and Loops Exercise 5: Calculator
  *
@@ -16,4 +14,23 @@ package labs_examples.conditions_loops.labs;
  */
 
 public class Exercise_05 {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+          
+        System.out.println("Enter a number: ");
+        // String input
+        int numberOne = scanner.nextInt();
+          
+        System.out.println("Enter another number: ");
+        int numberTwo = scanner.nextInt();
+      
+        int sum = 0;
+      	// String output
+      	for (int i = numberOne; i <= numberTwo; i++){
+          //sum = sum + ;
+          
+        }
+
+        // String out
+    }
 }
