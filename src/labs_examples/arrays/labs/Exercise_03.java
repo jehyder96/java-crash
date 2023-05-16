@@ -1,5 +1,3 @@
-package labs_examples.arrays.labs;
-
 /**
  *  2D Array
  *
@@ -16,8 +14,25 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_03 {
-
+	
     public static void main(String[] args) {
+        int multiplesTripled = 0;
         
+        int[][] multiples = new int[5][5];
+        for (int i = 0; i < multiples.length; i ++) {
+          for (int j = 0; j < multiples[i].length; j++) {
+            multiplesTripled += 3;
+            multiples[i][j] = multiplesTripled ;
+          }
+        }
+        
+        for (int[] a : multiples) {
+            for (int i : a) {
+                System.out.print(i + "\t");
+            }
+            System.out.println("\n");
+        }
+  
+         
     }
 }
