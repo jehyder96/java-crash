@@ -1,5 +1,3 @@
-package labs_examples.arrays.labs;
-
 /**
  *  Irregular Arrays
  *
@@ -9,5 +7,8 @@ package labs_examples.arrays.labs;
  */
 
 public class Exercise_04 {
+    public static void main(String[] args) {
+        
+    }
 
 }
